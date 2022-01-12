@@ -8,21 +8,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Counter Application</title>
+    <title>Random Number Generator Application</title>
 </head>
 
 <body>
     <div class="d-flex   flex-column justify-content-center bg-primary" style="min-height:80vh;width: 100vw;">
         <div class=" bg-warning p-5 shadow-lg w-xs-100  w-md-70 w-lg-70  w-xl-70    mx-auto ">
-            <h1 class="text-center">Counter Application</h1>
-            <h3 id="value" class="text-center">0</h3>
-
+            <h3 class="text-center">Generate Random Number</h3>
+            <h3 id="value" class="text-center" style="font-size: 1rem;">0</h3>
             <div class="d-flex flex-column  justify-content-around ">
-                <button class="btn btn-danger mb-2" onclick="decrease()"><i
-                        class="bi bi-arrow-down"></i>Decrease</button>
-                <button class="btn btn-secondary mb-2" onclick="reset()"><i
-                        class="bi bi-arrow-clockwise"></i>Reset</button>
-                <button class="btn btn-primary" onclick="increase()"><i class="bi bi-arrow-up"></i>Increase</button>
+                <button class="btn btn-success mb-2" onclick="genRandomNumber()"><i
+                        class="bi bi-arrow-clockwise"></i>Generate</button>
+
             </div>
 
         </div>
