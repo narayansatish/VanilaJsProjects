@@ -5,7 +5,7 @@ function checkPalindrome(e) {
         return alert("Empty Input")
     console.log(str);
     let reverseStr = str.split("").reverse().join("");
-    if (str == reverseStr)
+    if (str.toLowerCase() == reverseStr.toLowerCase())
         document.getElementById("result").innerHTML = str + " is a palindrome";
     else
         document.getElementById("result").innerHTML = str + " is not a palindrome";
