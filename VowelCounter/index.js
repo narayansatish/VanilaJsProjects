@@ -6,6 +6,7 @@ function countVowel() {
 
     let arr = ['a', 'e', 'i', 'o', 'u'];
     let count = 0;
+    str = str.toLowerCase();
     for (i = 0; i < str.length; i++)
         if (arr.includes(str[i]))
             count++;
